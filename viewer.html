@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Deep Viewer</title>
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/previewer-style.css">
+  </head>
+  <body>
+    <div class="container">
+      <svg class=svgdefs xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <filter id=alpha>
+            <feColorMatrix type=matrix values="0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1" />
+          </filter>
+          <filter id=white>
+            <feColorMatrix type=matrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+          </filter>
+          <filter id=black>
+            <feColorMatrix type=matrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0" />
+          </filter>
+        </defs>
+        <defs class=filters></defs>
+      </svg>
+      <div class="title" id="title">
+      </div>
+      <div class="error" id="error-messages" hidden>
+        <div id="video-instructions" class="section" hidden>
+          <h2>To playback video in your web browser please follow the steps below:</h2>
+          <p>1. Make sure your web browser is Google Chrome 81 or higher.<br />
+            2. Go to this URL: chrome://flags<br />
+            3. Enable web-platform-features.<br />
+            4. Reload this page.
+          </p>
+        </div>
+        <div id="error-generic" class="section" hidden>
+          <h2>Oops, something went wrong.  Go back to the main page and try again.</h2>
+        </div>
+      </div>
+      <div class="content">
+        <div class="viewer-container" style="display: flex;">
+          <div id="scene-viewer" class="scene-lf"><canvas id="viewer-canvas" class="viewer-canvas"></canvas></div>
+        </div>
+        <!-- View controls --->
+        <div class="center" id="messages">
+          <h3>
+            <span id="loading"> Loading... </span>
+          </h3>
+        </div>
+        <div class=controls id=all-controls hidden>
+          <div class="center">
+            <div class=controls id=VideoControls hidden>
+              Video controls<span class=ts></span>: <span id=playmode>
+                <div id=video-place-holder></div>
+              </span>
+              <span id=playspeed>
+                <a id=playspeed-regular disabled class=on>Regular</a>
+                <a id=playspeed-slow disabled class=off>Slow</a>
+                <a id=playspeed-superslow disabled class=off>Super Slow</a>
+              </span>
+            </div>
+          </div>
+          <div class="mode-container">
+            <div id="move-mode">
+              Movement mode<span class=ts></span>: <span id=movemode>
+                <a id=move-mode-pan class=on><span class="no-wrap">pan</span></a>
+                <a id=move-mode-sway>sway</a>
+                <a id=move-mode-figure8><span class="no-wrap">figure8</span></a>
+              </span>
+            </div>
+            <div id="view-mode">
+              View mode<span class=ts></span>: <span id=viewmode>
+                <a id=view-mode-normal class=on>normal</a>
+                <a id=view-mode-depthalpha><span class="no-wrap">depth * alpha</span></a>
+                <a id=view-mode-depth>depth</a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- Layer Controls -->
+        <div class="layer-controls" hidden id="layer-controls">
+          <span>Layers: hover, click, or shift+click.</span>
+          <div class="layer-thumbs" id="layer-thumbs" selected=0>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/viewer.js"></script>
+  </body>
+</html>

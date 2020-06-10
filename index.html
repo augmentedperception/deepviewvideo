@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Immersive Light Field Video with a Layered Mesh Representation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,minimum-scale=1.0">
+        <meta name="description" content="!!NEED TO FILL OUT!!">
+        <meta name="keywords" content="!!NEED TO FILL OUT!!">
+        <meta name="author" content="!!NEED TO FILL OUT!!">
+        <meta name="robots" content="all">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <canvas id="global-canvas"></canvas>
+        <div class="container">
+            <div class="header">
+                <div class="title">
+                    <h1>Immersive Light Field Video <br/> with a Layered Mesh Representation</h1>
+                    <div class="title-line"><hr></div>
+                </div>
+                <div class="subheading">
+                    <h2>SIGGRAPH 2020 Technical Paper</h2>
+                    <p class="subheading-link">
+                        <a href="assets/pdf/deepview_video_camera_ready.pdf">Download PDF</a>
+                    </p>
+                </div>
+                <div class="authors">
+                    <h4>
+                        <span class="no-wrap">Michael Broxton*</span>,
+                        <span class="no-wrap">John Flynn*</span>,
+                        <span class="no-wrap">Ryan Overbeck*</span>,
+                        <span class="no-wrap">Daniel Erickson*</span>,
+                        <span class="no-wrap">Peter Hedman</span>,
+                        <span class="no-wrap">Matthew DuVall</span>,
+                        <span class="no-wrap">Jason Dourgarian</span>,
+                        <span class="no-wrap">Jay Busch</span>,
+                        <span class="no-wrap">Matt Whalen</span>,
+                        <span class="no-wrap">Paul Debevec</span>
+                    </h4>
+                    <p class="equal-contribution pt-5 center-text">* - Denotes equal contribution.</p>
+                </div>
+                <div class="organization">
+                    <h3>Google LLC</h3>
+                </div>
+            </div>
+            <div class="hero-viewer">
+                <div class="hero-container" style="display: flex;">
+                    <div id="scene-hero" class="scene-lf"></div>
+                </div>
+                <div class="content">
+                    <p class="pt-15 italic center-text">
+                        A single frame from a video light field showing a geometrically complex workshop scene with reflections and sparks.<br />
+                        Scroll down to the example scenes at the bottom of this page to view the full video light field in your browser.
+                    </p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="paper-thumbnails">
+                    <div class="page">
+                        <a href="https://storage.googleapis.com/immersive-lf-video-siggraph2020/ImmersiveLightFieldVideoWithALayeredMeshRepresentation.pdf"><img src="assets/img/DeepViewVideo_Submit1.jpg" alt="Download .pdf"></a>
+                    </div>
+                    <div class="page">
+                        <a href="https://storage.googleapis.com/immersive-lf-video-siggraph2020/ImmersiveLightFieldVideoWithALayeredMeshRepresentation.pdf"><img src="assets/img/DeepViewVideo_Submit2.jpg" alt="Download .pdf"></a>
+                    </div>
+                    <div class="page">
+                        <a href="https://storage.googleapis.com/immersive-lf-video-siggraph2020/ImmersiveLightFieldVideoWithALayeredMeshRepresentation.pdf"><img src="assets/img/DeepViewVideo_Submit3.jpg" alt="Download .pdf"></a>
+                    </div>
+                    <div class="page">
+                        <a href="https://storage.googleapis.com/immersive-lf-video-siggraph2020/ImmersiveLightFieldVideoWithALayeredMeshRepresentation.pdf"><img src="assets/img/DeepViewVideo_Submit4.jpg" alt="Download .pdf"></a>
+                    </div>
+                    <p class="pt-15">
+                        Click to <a href="https://storage.googleapis.com/immersive-lf-video-siggraph2020/ImmersiveLightFieldVideoWithALayeredMeshRepresentation.pdf" class="content-link">download</a> a PDF of the paper.
+                    </p>
+                </div>
+                <div class="section">
+                    <h5>Abstract</h5>
+                    <p><span class="dropcap">W</span>e present a system for capturing, reconstructing, compressing, and rendering high quality immersive light field video. We record immersive light fields using a custom array of 46 time-synchronized cameras distributed on the surface of a hemispherical, 92cm diameter dome. From this data we produce 6DOF volumetric videos with a wide 80-cm viewing baseline, 10 pixels per degree angular resolution, and a wide field of view (>220 degrees), at 30fps video frame rates. Even though the cameras are placed 18cm apart on average, our system can reconstruct objects as close as 20cm to the camera rig. We accomplish this by leveraging the recently introduced DeepView view interpolation algorithm, replacing its underlying multi-plane image (MPI) scene representation with a collection of spherical shells which are better suited for representing panoramic light field content. We further process this data to reduce the large number of shell layers to a small, fixed number of RGBA+depth layers without significant loss in visual quality. The resulting RGB, alpha, and depth channels in these layers are then compressed using conventional texture atlasing and video compression techniques. The final, compressed representation is lightweight and can be rendered on mobile VR/AR platforms or in a web browser.</p>
+                </div>
+                <div class="section">
+                    <h5>Video</h5>
+                    <video controls poster="assets/img/video_poster.jpg" style="padding-top: 10px; padding-bottom: 20px; width: 100%">
+                      <source src="https://storage.googleapis.com/immersive-lf-video-siggraph2020/DV_SIGG20_2020051202.mp4" type="video/mp4">
+                      Play Video
+                    </video>
+                </div>
+                <div class="section">
+                    <h5>Example Light Fields</h5>
+                    <p>Below are several light field videos that can be explored interactively in your web browser. Click on a scene's thumbnail to view the light field in motion. Additionally, the links below the thumbnail allow you to explore the intermediate scene representations used in our light field video processing pipeline. These include:
+                    </p>
+                    <p><b>MSI</b>: a Multi Sphere Image.<br />
+                    <b>LM</b>: a Layered Mesh with individual layer textures.<br />
+                    <b>LM-TA</b>: a Layered Mesh with a texture atlas.</p>
+                    <p>Please see the paper manuscript for more information about these representations. <br />Note: in order to reduce download times the examples below are at lower resolution than the main results shown in our paper. Please see our video for full resolution results.</p>
+                    <!-- This gets filled with DeepView examples in the js -->
+                    <div class="deepview-container" id="deepview-container"></div>
+                </div>
+              <div class="section">
+                <h5 style="text-transform: none;">BibTeX</h5>
+                <div class="bibtex-text">
+                        @article{broxton2020immersive,<br />
+                        &nbsp;&nbsp;title={Immersive Light Field Video with a Layered Mesh Representation},<br />
+                        &nbsp;&nbsp;author={Michael Broxton and John Flynn and Ryan Overbeck and Daniel Erickson and Peter Hedman and Matthew DuVall and Jason Dourgarian and Jay Busch and Matt Whalen and Paul Debevec},<br />
+
+                        &nbsp;&nbsp;booktitle={ACM Transactions on Graphics (Proc. SIGGRAPH)},<br />
+                        &nbsp;&nbsp;publisher = {ACM},<br />
+                        &nbsp;&nbsp;volume = {39},<br />
+                        &nbsp;&nbsp;number = {4},<br />
+                        &nbsp;&nbsp;pages = {86:1--86:15},<br />
+                        &nbsp;&nbsp;year={2020}<br />
+                        }
+                </div>
+              </div>
+            </div>
+
+            <div class="footer">
+                <div class="footer-decoration">
+                    <div class="footer-decoration-col" style="background-color: #aecbfa;"></div>
+                    <div class="footer-decoration-col" style="background-color: #f6aea9;"></div>
+                    <div class="footer-decoration-col" style="background-color: #fde293;"></div>
+                    <div class="footer-decoration-col" style="background-color: #a8dab5;"></div>
+                </div>
+                <div class="footer-content">
+                    <div class="footer-links-row">
+                        <div class="footer-links-left">
+                            <h6>Related Work</h6>
+                            <ul class="footer-links">
+                                <li><a href="https://augmentedperception.github.io/deepview">DeepView: View Synthesis with Learned Gradient Descent</a></li>
+                                <li><a href="https://augmentedperception.github.io/lowcost-panoramic-LFV">A Low Cost Multi-Camera Array for Panoramic Light Field Video Capture</a></li>
+                                <li><a href="https://augmentedperception.github.io/welcome-to-lightfields">A System for Acquiring, Processing, and Rendering Panoramic Light Field Stills for Virtual Reality</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-links-right">
+                            <h6>Additional Links</h6>
+                            <ul class="footer-links">
+                                <li><a href="https://s2020.siggraph.org/submissions/technical-papers-submissions">SIGGRAPH 2020 Technical Papers</a></li>
+                                <li><a href="https://dl.acm.org">ACM Digital Library</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

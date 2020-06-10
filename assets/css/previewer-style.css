@@ -1,0 +1,259 @@
+html {
+    display: block;
+    height: auto;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+    color: #7a7a7a;
+    font-weight: normal;
+    margin: 0;
+}
+svg {
+    display: none;
+}
+h1 {
+    display: block;
+    margin: 0.2em 0;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 2.1em;
+    font-weight: 700;
+    color: #000;
+}
+h2 {
+    display: block;
+    margin: 0.6em 0;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.05em;
+    font-size: 1em;
+    font-weight: 700;
+    color: #000;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 25px;
+    margin: 0 0 20px;
+    text-align: justify;
+}
+.container {
+    min-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content {
+    display: block;
+    position: relative;
+    width: 85%;
+    max-width: 1024px;
+    padding: 0 15px 100px 15px;
+    margin: 0 auto;
+}
+.error {
+    position: relative;
+    width: 85%;
+    max-width: 1024px;
+    padding: 0 15px 100px 15px;
+    margin: 0 auto;
+}
+.section {
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+}
+.title {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 50px 15px 10px;
+}
+.title h1 {
+    margin-top: 0;
+}
+.ts {
+    padding-right: 1px;
+}
+.hide {
+    display: none;
+}
+.center {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+.layer-controls {
+  width: fit-content;
+  text-align: center;
+  padding-top: 10px;
+}
+.mode-container {
+    display: flex;
+    justify-content: space-between;
+}
+.no-wrap {
+    white-space: nowrap;
+}
+.viewer-container {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  max-width: 1024px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+.viewer-canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.scene-lf {
+    width: 100%;
+    padding-bottom: 60%;
+    z-index: 1;
+    position: relative;
+}
+.scene-lf:hover .overlay {
+    opacity: 0.85;
+}
+#error {
+    display: none;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: #444;
+    padding: 8px;
+    white-space: pre;
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+}
+#info {
+    padding-bottom: 8px;
+    word-break: break-all;
+    padding-right: 50px;
+    font-size: 12px;
+    line-height: 30px;
+}
+#info #url {
+    font-size: 10px;
+    line-height: 10px;
+}
+#VideoControls {
+    padding-bottom: 35px;
+}
+
+/* Button styling */
+.layer-thumbs a, .controls a {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 4px 8px;
+    border-radius: 4px;
+    line-height: 30px;
+    cursor: pointer;
+    background: #ddd;
+    color: #333;
+    -webkit-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+}
+a:active {
+    background: #000;
+    color: #fff;
+}
+a:hover {
+    background: #f2f2f2;
+    color: #333;
+}
+a.on {
+    color: #000;
+    background: #ababab;
+}
+#minimodes,
+#backgroundmodes,
+#behindmodes,
+#frontmodes {
+    display: inline-block;
+}
+/* Layer thumbnails. */
+.layer-thumbs {
+  position: relative;
+}
+.layer-thumbs .group {
+    display: inline-block;
+    white-space: nowrap;
+}
+.layer-thumbs .row {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid black;
+    margin: 0 4px 4px 0;
+}
+.layer-thumbs[selected="0"] .row:hover, .layer-thumbs .row[selected] {
+    border-color: red;
+}
+.layer-thumbs .row:active {
+    border-color: white !important;
+}
+.layer-thumbs .thumb {
+    display: inline-block;
+    background-size: 100% 100%;
+    vertical-align: top;
+}
+.layer-thumbs .num {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 1px 3px 1px 2px;
+    background: #444;
+    color: #fff;
+    border-bottom-right-radius: 4px;
+}
+.layer-thumbs .row[selected] .num {
+    background: #d00;
+}
+body[mode="0"] .thumb, body[mode="0"] .img.selected {
+    filter: none !important;
+}
+body[mode="1"] .thumb {
+    filter: url(#alpha) !important;
+}
+body[mode="1"] .img.selected {
+    filter: url(#white) !important;
+}
+body[background="0"] .view {
+    background: #000;
+}
+body[background="1"] .view {
+    background: #888;
+}
+body[background="2"] .view {
+    background: #fff;
+}
+body[under="0"] .img.under {
+    visibility: hidden;
+}
+body .img.mid {
+    visibility: hidden;
+}
+body[over="0"] .img.over {
+    visibility: hidden;
+}
+body[over="2"] .img.over {
+    filter: url(#black) !important;
+}
+body[over="3"] .img.over {
+    filter: url(#white) !important;
+}
