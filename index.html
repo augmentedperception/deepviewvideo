@@ -45,18 +45,13 @@
                     <h3>Google LLC</h3>
                 </div>
             </div>
-            <div class="hero-viewer">
-                <div class="hero-container" style="display: flex;">
-                    <div id="scene-hero" class="scene-lf"></div>
-                </div>
-                <div class="content">
-                    <p class="pt-15 italic center-text">
-                        A single frame from a video light field showing a geometrically complex workshop scene with reflections and sparks.<br />
-                        Scroll down to the example scenes at the bottom of this page to view the full video light field in your browser.
-                    </p>
-                </div>
-            </div>
             <div class="content">
+                <div class="section" style="padding: 0 0 10px 0;">
+                    <video controls poster="assets/img/video_poster.jpg" style="padding-bottom: 20px; width: 100%">
+                      <source src="https://storage.googleapis.com/immersive-lf-video-siggraph2020/DV_SIGG20_2020051202.mp4" type="video/mp4">
+                      Play Video
+                    </video>
+                </div>
                 <div class="paper-thumbnails">
                     <div class="page">
                         <a href="https://storage.googleapis.com/immersive-lf-video-siggraph2020/ImmersiveLightFieldVideoWithALayeredMeshRepresentation.pdf"><img src="assets/img/DeepViewVideo_Submit1.jpg" alt="Download .pdf"></a>
@@ -78,13 +73,19 @@
                     <h5>Abstract</h5>
                     <p><span class="dropcap">W</span>e present a system for capturing, reconstructing, compressing, and rendering high quality immersive light field video. We record immersive light fields using a custom array of 46 time-synchronized cameras distributed on the surface of a hemispherical, 92cm diameter dome. From this data we produce 6DOF volumetric videos with a wide 80-cm viewing baseline, 10 pixels per degree angular resolution, and a wide field of view (>220 degrees), at 30fps video frame rates. Even though the cameras are placed 18cm apart on average, our system can reconstruct objects as close as 20cm to the camera rig. We accomplish this by leveraging the recently introduced DeepView view interpolation algorithm, replacing its underlying multi-plane image (MPI) scene representation with a collection of spherical shells which are better suited for representing panoramic light field content. We further process this data to reduce the large number of shell layers to a small, fixed number of RGBA+depth layers without significant loss in visual quality. The resulting RGB, alpha, and depth channels in these layers are then compressed using conventional texture atlasing and video compression techniques. The final, compressed representation is lightweight and can be rendered on mobile VR/AR platforms or in a web browser.</p>
                 </div>
-                <div class="section">
-                    <h5>Video</h5>
-                    <video controls poster="assets/img/video_poster.jpg" style="padding-top: 10px; padding-bottom: 20px; width: 100%">
-                      <source src="https://storage.googleapis.com/immersive-lf-video-siggraph2020/DV_SIGG20_2020051202.mp4" type="video/mp4">
-                      Play Video
-                    </video>
+            </div>
+            <div class="hero-viewer">
+                <div class="hero-container" style="display: flex;">
+                    <div id="scene-hero" class="scene-lf"></div>
                 </div>
+                <div class="content">
+                    <p class="pt-15 italic center-text">
+                        A single frame from a video light field showing a geometrically complex workshop scene with reflections and sparks.<br />
+                        Scroll down to the example scenes at the bottom of this page to view the full video light field in your browser.
+                    </p>
+                </div>
+            </div>
+            <div class="content">
                 <div class="section">
                     <h5>Example Light Fields</h5>
                     <p>Below are several light field videos that can be explored interactively in your web browser. Click on a scene's thumbnail to view the light field in motion. Additionally, the links below the thumbnail allow you to explore the intermediate scene representations used in our light field video processing pipeline. These include:
