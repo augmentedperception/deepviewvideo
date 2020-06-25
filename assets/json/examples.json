@@ -1,6 +1,16 @@
 {
   "examplesList": [{
     "name": "Welder",
+    "thumbnailLmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/welder/thumbnail",
+      "rgba": "texture_packed.jpg",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
+    "lowRes": {
     "video": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/welder/video",
       "video": "mdi_rgb_000.mp4",
@@ -35,18 +45,39 @@
       "lutUrl": "../lut.png",
       "near": 0.8,
       "far": 1000.0
+    }
+  },
+  "hiRes": {
+    "lm": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/welder/lm",
+      "layer0Rgba": "rig_space_rgba_000.png",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
     },
-    "thumbnailLmta": {
-      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/welder/thumbnail",
-      "rgba": "texture_packed.jpg",
+    "lmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/welder/lmta",
+      "rgba": "texture_atlas_rgba.png",
       "layer0Mesh": "mdi_rig_space_mesh_000.ply",
       "numLayers": 16,
       "lutUrl": "../lut.png",
       "near": 0.8,
       "far": 1000.0
     }
-  }, {
+  }}, {
     "name": "Flames",
+    "thumbnailLmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/flames/thumbnail",
+      "rgba": "texture_packed.jpg",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 1.2,
+      "far": 1000.0
+    },
+    "lowRes": {
     "video": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/flames/video",
       "video": "mdi_rgb_000.mp4",
@@ -81,18 +112,39 @@
       "lutUrl": "../lut.png",
       "near": 1.2,
       "far": 1000.0
+    }
+  },
+  "hiRes": {
+    "lm": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/flames/lm",
+      "layer0Rgba": "rig_space_rgba_000.png",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 1.2,
+      "far": 1000.0
     },
-    "thumbnailLmta": {
-      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/flames/thumbnail",
-      "rgba": "texture_packed.jpg",
+    "lmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/flames/lmta",
+      "rgba": "texture_atlas_rgba.png",
       "layer0Mesh": "mdi_rig_space_mesh_000.ply",
       "numLayers": 16,
       "lutUrl": "../lut.png",
       "near": 1.2,
       "far": 1000.0
     }
-  }, {
+  }}, {
     "name": "Dog",
+    "thumbnailLmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/dog/thumbnail",
+      "rgba": "texture_packed.jpg",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
+    "lowRes": {
     "video": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/dog/video",
       "video": "mdi_rgb_000.mp4",
@@ -127,18 +179,39 @@
       "lutUrl": "../lut.png",
       "near": 0.8,
       "far": 1000.0
+    }
+  },
+  "hiRes": {
+    "lm": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/dog/lm",
+      "layer0Rgba": "rig_space_rgba_000.png",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
     },
-    "thumbnailLmta": {
-      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/dog/thumbnail",
-      "rgba": "texture_packed.jpg",
+    "lmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/dog/lmta",
+      "rgba": "texture_atlas_rgba.png",
       "layer0Mesh": "mdi_rig_space_mesh_000.ply",
       "numLayers": 16,
       "lutUrl": "../lut.png",
       "near": 0.8,
       "far": 1000.0
     }
-  }, {
+  }}, {
     "name": "Truck",
+    "thumbnailLmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/truck/thumbnail",
+      "rgba": "texture_packed.jpg",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
+    "lowRes": {
     "video": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/truck/video",
       "video": "mdi_rgb_000.mp4",
@@ -175,18 +248,39 @@
       "lutUrl": "../lut.png",
       "near": 0.8,
       "far": 1000.0
+    }
+  },
+  "hiRes": {
+    "lm": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/truck/lm",
+      "layer0Rgba": "rig_space_rgba_000.png",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
     },
-    "thumbnailLmta": {
-      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/truck/thumbnail",
-      "rgba": "texture_packed.jpg",
+    "lmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/truck/lmta",
+      "rgba": "texture_atlas_rgba.png",
       "layer0Mesh": "mdi_rig_space_mesh_000.ply",
       "numLayers": 16,
       "lutUrl": "../lut.png",
       "near": 0.8,
       "far": 1000.0
     }
-  }, {
+  }}, {
     "name": "Horse",
+    "thumbnailLmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/horse/thumbnail",
+      "rgba": "texture_packed.jpg",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 1.0,
+      "far": 1000.0
+    },
+    "lowRes": {
     "video": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/horse/video",
       "video": "mdi_rgb_000.mp4",
@@ -221,18 +315,39 @@
       "lutUrl": "../lut.png",
       "near": 1.0,
       "far": 1000.0
+    }
+  },
+  "hiRes": {
+    "lm": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/horse/lm",
+      "layer0Rgba": "rig_space_rgba_000.png",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 1.0,
+      "far": 1000.0
     },
-    "thumbnailLmta": {
-      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/horse/thumbnail",
-      "rgba": "texture_packed.jpg",
+    "lmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/horse/lmta",
+      "rgba": "texture_atlas_rgba.png",
       "layer0Mesh": "mdi_rig_space_mesh_000.ply",
       "numLayers": 16,
       "lutUrl": "../lut.png",
       "near": 1.0,
       "far": 1000.0
     }
-  }, {
+  }}, {
     "name": "Goats",
+    "thumbnailLmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/goats/thumbnail",
+      "rgba": "texture_packed.jpg",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
+    "lowRes": {
     "video": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/goats/video",
       "video": "mdi_rgb_000.mp4",
@@ -267,18 +382,39 @@
       "lutUrl": "../lut.png",
       "near": 0.8,
       "far": 1000.0
+    }
+  },
+  "hiRes": {
+    "lm": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/goats/lm",
+      "layer0Rgba": "rig_space_rgba_000.png",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
     },
-    "thumbnailLmta": {
-      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/goats/thumbnail",
-      "rgba": "texture_packed.jpg",
+    "lmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/goats/lmta",
+      "rgba": "texture_atlas_rgba.png",
       "layer0Mesh": "mdi_rig_space_mesh_000.ply",
       "numLayers": 16,
       "lutUrl": "../lut.png",
       "near": 0.8,
       "far": 1000.0
     }
-  }, {
+  }}, {
     "name": "Car",
+    "thumbnailLmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/car/thumbnail",
+      "rgba": "texture_packed.jpg",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 1.2,
+      "far": 1000.0
+    },
+    "lowRes": {
     "video": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/car/video",
       "video": "mdi_rgb_000.mp4",
@@ -313,18 +449,39 @@
       "lutUrl": "../lut.png",
       "near": 1.2,
       "far": 1000.0
+    }
+  },
+  "hiRes": {
+    "lm": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/car/lm",
+      "layer0Rgba": "rig_space_rgba_000.png",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 1.2,
+      "far": 1000.0
     },
-    "thumbnailLmta": {
-      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/car/thumbnail",
-      "rgba": "texture_packed.jpg",
+    "lmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/car/lmta",
+      "rgba": "texture_atlas_rgba.png",
       "layer0Mesh": "mdi_rig_space_mesh_000.ply",
       "numLayers": 16,
       "lutUrl": "../lut.png",
       "near": 1.2,
       "far": 1000.0
     }
-  }, {
+  }}, {
     "name": "Pond",
+    "thumbnailLmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/pond/thumbnail",
+      "rgba": "texture_packed.jpg",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 1.2,
+      "far": 1000.0
+    },
+    "lowRes": {
     "video": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/pond/video",
       "video": "mdi_rgb_000.mp4",
@@ -359,18 +516,39 @@
       "lutUrl": "../lut.png",
       "near": 1.2,
       "far": 1000.0
+    }
+  },
+  "hiRes": {
+    "lm": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/pond/lm",
+      "layer0Rgba": "rig_space_rgba_000.png",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 1.2,
+      "far": 1000.0
     },
-    "thumbnailLmta": {
-      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/pond/thumbnail",
-      "rgba": "texture_packed.jpg",
+    "lmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/pond/lmta",
+      "rgba": "texture_atlas_rgba.png",
       "layer0Mesh": "mdi_rig_space_mesh_000.ply",
       "numLayers": 16,
       "lutUrl": "../lut.png",
       "near": 1.2,
       "far": 1000.0
     }
-  }, {
-    "name": "Exhibit",
+  }}, {
+    "name": "Alexa Meade Exhibit",
+    "thumbnailLmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/exhibit-paint/thumbnail",
+      "rgba": "texture_packed.jpg",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
+    "lowRes": {
     "video": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/exhibit-paint/video",
       "video": "mdi_rgb_000.mp4",
@@ -405,18 +583,39 @@
       "lutUrl": "../lut.png",
       "near": 0.8,
       "far": 1000.0
+    }
+  },
+  "hiRes": {
+    "lm": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/exhibit-paint/lm",
+      "layer0Rgba": "rig_space_rgba_000.png",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
     },
-    "thumbnailLmta": {
-      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/exhibit-paint/thumbnail",
-      "rgba": "texture_packed.jpg",
+    "lmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/exhibit-paint/lmta",
+      "rgba": "texture_atlas_rgba.png",
       "layer0Mesh": "mdi_rig_space_mesh_000.ply",
       "numLayers": 16,
       "lutUrl": "../lut.png",
       "near": 0.8,
       "far": 1000.0
     }
-  }, {
-    "name": "Face Paint 1",
+  }}, {
+    "name": "Alexa Meade Face Paint 1",
+    "thumbnailLmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/neck-paint/thumbnail",
+      "rgba": "texture_packed.jpg",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
+    "lowRes": {
     "video": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/neck-paint/video",
       "video": "mdi_rgb_000.mp4",
@@ -451,18 +650,39 @@
       "lutUrl": "../lut.png",
       "near": 0.8,
       "far": 1000.0
+    }
+  },
+  "hiRes": {
+    "lm": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/neck-paint/lm",
+      "layer0Rgba": "rig_space_rgba_000.png",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
     },
-    "thumbnailLmta": {
-      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/neck-paint/thumbnail",
-      "rgba": "texture_packed.jpg",
+    "lmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/neck-paint/lmta",
+      "rgba": "texture_atlas_rgba.png",
       "layer0Mesh": "mdi_rig_space_mesh_000.ply",
       "numLayers": 16,
       "lutUrl": "../lut.png",
       "near": 0.8,
       "far": 1000.0
     }
-  }, {
-    "name": "Face Paint 2",
+  }}, {
+    "name": "Alexa Meade Face Paint 2",
+    "thumbnailLmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/face-paint/thumbnail",
+      "rgba": "texture_packed.jpg",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
+    "lowRes": {
     "video": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/face-paint/video",
       "video": "mdi_rgb_000.mp4",
@@ -497,18 +717,39 @@
       "lutUrl": "../lut.png",
       "near": 0.8,
       "far": 1000.0
+    }
+  },
+  "hiRes": {
+    "lm": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/face-paint/lm",
+      "layer0Rgba": "rig_space_rgba_000.png",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
     },
-    "thumbnailLmta": {
-      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/face-paint/thumbnail",
-      "rgba": "texture_packed.jpg",
+    "lmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/face-paint/lmta",
+      "rgba": "texture_atlas_rgba.png",
       "layer0Mesh": "mdi_rig_space_mesh_000.ply",
       "numLayers": 16,
       "lutUrl": "../lut.png",
       "near": 0.8,
       "far": 1000.0
     }
-  }, {
+  }}, {
     "name": "Cave",
+    "thumbnailLmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/cave/thumbnail",
+      "rgba": "texture_packed.jpg",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
+    "lowRes": {
     "video": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/cave/video",
       "video": "mdi_rgb_000.mp4",
@@ -543,18 +784,39 @@
       "lutUrl": "../lut.png",
       "near": 0.8,
       "far": 1000.0
+    }
+  },
+  "hiRes": {
+    "lm": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/cave/lm",
+      "layer0Rgba": "rig_space_rgba_000.png",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
     },
-    "thumbnailLmta": {
-      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/cave/thumbnail",
-      "rgba": "texture_packed.jpg",
+    "lmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/cave/lmta",
+      "rgba": "texture_atlas_rgba.png",
       "layer0Mesh": "mdi_rig_space_mesh_000.ply",
       "numLayers": 16,
       "lutUrl": "../lut.png",
       "near": 0.8,
       "far": 1000.0
     }
-  }, {
+  }}, {
     "name": "Beach Birds",
+    "thumbnailLmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/beach-birds/thumbnail",
+      "rgba": "texture_packed.jpg",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 1.2,
+      "far": 1000.0
+    },
+    "lowRes": {
     "video": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/beach-birds/video",
       "video": "mdi_rgb_000.mp4",
@@ -589,18 +851,39 @@
       "lutUrl": "../lut.png",
       "near": 1.2,
       "far": 1000.0
+    }
+  },
+  "hiRes": {
+    "lm": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/beach-birds/lm",
+      "layer0Rgba": "rig_space_rgba_000.png",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 1.2,
+      "far": 1000.0
     },
-    "thumbnailLmta": {
-      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/beach-birds/thumbnail",
-      "rgba": "texture_packed.jpg",
+    "lmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/beach-birds/lmta",
+      "rgba": "texture_atlas_rgba.png",
       "layer0Mesh": "mdi_rig_space_mesh_000.ply",
       "numLayers": 16,
       "lutUrl": "../lut.png",
       "near": 1.2,
       "far": 1000.0
     }
-  }, {
+  }}, {
     "name": "Beach Puppy",
+    "thumbnailLmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/beach-dog/thumbnail",
+      "rgba": "texture_packed.jpg",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 1.2,
+      "far": 1000.0
+    },
+    "lowRes": {
     "video": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/beach-dog/video",
       "video": "mdi_rgb_000.mp4",
@@ -635,18 +918,39 @@
       "lutUrl": "../lut.png",
       "near": 1.2,
       "far": 1000.0
+    }
+  },
+  "hiRes": {
+    "lm": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/beach-dog/lm",
+      "layer0Rgba": "rig_space_rgba_000.png",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 1.2,
+      "far": 1000.0
     },
-    "thumbnailLmta": {
-      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/beach-dog/thumbnail",
-      "rgba": "texture_packed.jpg",
+    "lmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/beach-dog/lmta",
+      "rgba": "texture_atlas_rgba.png",
       "layer0Mesh": "mdi_rig_space_mesh_000.ply",
       "numLayers": 16,
       "lutUrl": "../lut.png",
       "near": 1.2,
       "far": 1000.0
     }
-  }, {
+  }}, {
     "name": "Branches",
+    "thumbnailLmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/branches/thumbnail",
+      "rgba": "texture_packed.jpg",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
+    "lowRes": {
     "video": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/branches/video",
       "video": "mdi_rgb_000.mp4",
@@ -681,15 +985,26 @@
       "lutUrl": "../lut.png",
       "near": 0.8,
       "far": 1000.0
+    }
     },
-    "thumbnailLmta": {
-      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/branches/thumbnail",
-      "rgba": "texture_packed.jpg",
+    "hiRes": {
+    "lm": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/branches/lm",
+      "layer0Rgba": "rig_space_rgba_000.png",
       "layer0Mesh": "mdi_rig_space_mesh_000.ply",
       "numLayers": 16,
       "lutUrl": "../lut.png",
       "near": 0.8,
       "far": 1000.0
-    }
+    },
+    "lmta": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/branches/lmta",
+      "rgba": "texture_atlas_rgba.png",
+      "layer0Mesh": "mdi_rig_space_mesh_000.ply",
+      "numLayers": 16,
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    }}
   }]
 }
