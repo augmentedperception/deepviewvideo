@@ -48,6 +48,23 @@
     }
   },
   "hiRes": {
+    "video": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/welder/video",
+      "video": "mdi_rgb_000_vp9.mp4",
+      "meshStream": "mesh_gops_streaming.fb",
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
+    "msi": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/welder/msi",
+      "layer0Rgba": "rgba_000.png",
+      "numLayers": 160,
+      "baseMeshUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/msi-geometry/uv_sphere_180.obj",
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
     "lm": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/welder/lm",
       "layer0Rgba": "rig_space_rgba_000.png",
@@ -115,6 +132,23 @@
     }
   },
   "hiRes": {
+    "video": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/flames/video",
+      "video": "mdi_rgb_000_vp9.mp4",
+      "meshStream": "mesh_gops_streaming.fb",
+      "lutUrl": "../lut.png",
+      "near": 1.2,
+      "far": 1000.0
+    },
+    "msi": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/flames/msi",
+      "layer0Rgba": "rgba_000.png",
+      "numLayers": 160,
+      "baseMeshUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/msi-geometry/uv_sphere_180.obj",
+      "lutUrl": "../lut.png",
+      "near": 1.2,
+      "far": 1000.0
+    },
     "lm": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/flames/lm",
       "layer0Rgba": "rig_space_rgba_000.png",
@@ -182,6 +216,23 @@
     }
   },
   "hiRes": {
+    "video": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/dog/video",
+      "video": "mdi_rgb_000_vp9.mp4",
+      "meshStream": "mesh_gops_streaming.fb",
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
+    "msi": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/dog/msi",
+      "layer0Rgba": "rgba_000.png",
+      "numLayers": 160,
+      "baseMeshUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/msi-geometry/uv_sphere_180.obj",
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
     "lm": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/dog/lm",
       "layer0Rgba": "rig_space_rgba_000.png",
@@ -251,6 +302,25 @@
     }
   },
   "hiRes": {
+    "video": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/truck/video",
+      "video": "mdi_rgb_000_vp9.mp4",
+      "meshStream": "mesh_gops_streaming.fb",
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
+    "msi": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/truck/msi",
+      "layer0Rgba": "rgba_000.png",
+      "numLayers": 160,
+      "baseMeshUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/msi-geometry/uv_sphere_180.obj",
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0,
+      "near": 0.8,
+      "far": 1000.0
+    },
     "lm": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/truck/lm",
       "layer0Rgba": "rig_space_rgba_000.png",
@@ -318,6 +388,23 @@
     }
   },
   "hiRes": {
+    "video": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/horse/video",
+      "video": "mdi_rgb_000_vp9.mp4",
+      "meshStream": "mesh_gops_streaming.fb",
+      "lutUrl": "../lut.png",
+      "near": 1.0,
+      "far": 1000.0
+    },
+    "msi": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/horse/msi",
+      "layer0Rgba": "rgba_000.png",
+      "numLayers": 160,
+      "baseMeshUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/msi-geometry/uv_sphere_180.obj",
+      "lutUrl": "../lut.png",
+      "near": 1.0,
+      "far": 1000.0
+    },
     "lm": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/horse/lm",
       "layer0Rgba": "rig_space_rgba_000.png",
@@ -385,6 +472,23 @@
     }
   },
   "hiRes": {
+    "video": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/goats/video",
+      "video": "mdi_rgb_000_vp9.mp4",
+      "meshStream": "mesh_gops_streaming.fb",
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
+    "msi": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/goats/msi",
+      "layer0Rgba": "rgba_000.png",
+      "numLayers": 160,
+      "baseMeshUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/msi-geometry/uv_sphere_180.obj",
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
     "lm": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/goats/lm",
       "layer0Rgba": "rig_space_rgba_000.png",
@@ -452,6 +556,23 @@
     }
   },
   "hiRes": {
+    "video": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/car/video",
+      "video": "mdi_rgb_000_vp9.mp4",
+      "meshStream": "mesh_gops_streaming.fb",
+      "lutUrl": "../lut.png",
+      "near": 1.2,
+      "far": 1000.0
+    },
+    "msi": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/car/msi",
+      "layer0Rgba": "rgba_000.png",
+      "numLayers": 160,
+      "baseMeshUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/msi-geometry/uv_sphere_180.obj",
+      "lutUrl": "../lut.png",
+      "near": 1.2,
+      "far": 1000.0
+    },
     "lm": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/car/lm",
       "layer0Rgba": "rig_space_rgba_000.png",
@@ -519,6 +640,23 @@
     }
   },
   "hiRes": {
+    "video": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/pond/video",
+      "video": "mdi_rgb_000_vp9.mp4",
+      "meshStream": "mesh_gops_streaming.fb",
+      "lutUrl": "../lut.png",
+      "near": 1.2,
+      "far": 1000.0
+    },
+    "msi": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/pond/msi",
+      "layer0Rgba": "rgba_000.png",
+      "numLayers": 160,
+      "baseMeshUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/msi-geometry/uv_sphere_180.obj",
+      "lutUrl": "../lut.png",
+      "near": 1.2,
+      "far": 1000.0
+    },
     "lm": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/pond/lm",
       "layer0Rgba": "rig_space_rgba_000.png",
@@ -586,6 +724,23 @@
     }
   },
   "hiRes": {
+    "video": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/exhibit-paint/video",
+      "video": "mdi_rgb_000_vp9.mp4",
+      "meshStream": "mesh_gops_streaming.fb",
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
+    "msi": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/exhibit-paint/msi",
+      "layer0Rgba": "rgba_000.png",
+      "numLayers": 160,
+      "baseMeshUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/msi-geometry/uv_sphere_180.obj",
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
     "lm": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/exhibit-paint/lm",
       "layer0Rgba": "rig_space_rgba_000.png",
@@ -653,6 +808,23 @@
     }
   },
   "hiRes": {
+    "video": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/neck-paint/video",
+      "video": "mdi_rgb_000_vp9.mp4",
+      "meshStream": "mesh_gops_streaming.fb",
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
+    "msi": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/neck-paint/msi",
+      "layer0Rgba": "rgba_000.png",
+      "numLayers": 160,
+      "baseMeshUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/msi-geometry/uv_sphere_180.obj",
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
     "lm": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/neck-paint/lm",
       "layer0Rgba": "rig_space_rgba_000.png",
@@ -720,6 +892,23 @@
     }
   },
   "hiRes": {
+    "video": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/face-paint/video",
+      "video": "mdi_rgb_000_vp9.mp4",
+      "meshStream": "mesh_gops_streaming.fb",
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
+    "msi": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/face-paint/msi",
+      "layer0Rgba": "rgba_000.png",
+      "numLayers": 160,
+      "baseMeshUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/msi-geometry/uv_sphere_180.obj",
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
     "lm": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/face-paint/lm",
       "layer0Rgba": "rig_space_rgba_000.png",
@@ -787,6 +976,23 @@
     }
   },
   "hiRes": {
+    "video": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/cave/video",
+      "video": "mdi_rgb_000_vp9.mp4",
+      "meshStream": "mesh_gops_streaming.fb",
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
+    "msi": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/cave/msi",
+      "layer0Rgba": "rgba_000.png",
+      "numLayers": 160,
+      "baseMeshUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/msi-geometry/uv_sphere_180.obj",
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
     "lm": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/cave/lm",
       "layer0Rgba": "rig_space_rgba_000.png",
@@ -854,6 +1060,23 @@
     }
   },
   "hiRes": {
+    "video": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/beach-birds/video",
+      "video": "mdi_rgb_000_vp9.mp4",
+      "meshStream": "mesh_gops_streaming.fb",
+      "lutUrl": "../lut.png",
+      "near": 1.2,
+      "far": 1000.0
+    },
+    "msi": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/beach-birds/msi",
+      "layer0Rgba": "rgba_000.png",
+      "numLayers": 160,
+      "baseMeshUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/msi-geometry/uv_sphere_180.obj",
+      "lutUrl": "../lut.png",
+      "near": 1.2,
+      "far": 1000.0
+    },
     "lm": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/beach-birds/lm",
       "layer0Rgba": "rig_space_rgba_000.png",
@@ -921,6 +1144,23 @@
     }
   },
   "hiRes": {
+    "video": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/beach-dog/video",
+      "video": "mdi_rgb_000_vp9.mp4",
+      "meshStream": "mesh_gops_streaming.fb",
+      "lutUrl": "../lut.png",
+      "near": 1.2,
+      "far": 1000.0
+    },
+    "msi": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/beach-dog/msi",
+      "layer0Rgba": "rgba_000.png",
+      "numLayers": 160,
+      "baseMeshUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/msi-geometry/uv_sphere_180.obj",
+      "lutUrl": "../lut.png",
+      "near": 1.2,
+      "far": 1000.0
+    },
     "lm": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/beach-dog/lm",
       "layer0Rgba": "rig_space_rgba_000.png",
@@ -988,6 +1228,23 @@
     }
     },
     "hiRes": {
+      "video": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/branches/video",
+      "video": "mdi_rgb_000_vp9.mp4",
+      "meshStream": "mesh_gops_streaming.fb",
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
+    "msi": {
+      "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/branches/msi",
+      "layer0Rgba": "rgba_000.png",
+      "numLayers": 160,
+      "baseMeshUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/msi-geometry/uv_sphere_180.obj",
+      "lutUrl": "../lut.png",
+      "near": 0.8,
+      "far": 1000.0
+    },
     "lm": {
       "baseUrl": "https://storage.googleapis.com/immersive-lf-video-siggraph2020/10ppd/branches/lm",
       "layer0Rgba": "rig_space_rgba_000.png",
