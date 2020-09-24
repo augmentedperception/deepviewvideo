@@ -138,6 +138,35 @@ hr {
     padding-left: 15px;
     margin: 0 auto;
 }
+.author-row {
+  display: flex;
+  position: relative;
+  width: 85%;
+  max-width: 1024px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.author-middle {
+  display: block;
+}
+.bestinshow-left {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  float: left;
+}
+.author-column {
+  float: left;
+}
+.bestinshow-right {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  float: left;
+}
 .hero-container {
     display: flex;
     position: relative;
@@ -267,7 +296,6 @@ hr {
     }
 }
 .hero-viewer {
-    padding-top: 30px;
     padding-bottom: 30px;
 }
 .paper-thumbnails {
