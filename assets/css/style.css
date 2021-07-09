@@ -105,6 +105,9 @@ p {
     margin: 0 0 20px;
     text-align: justify;
 }
+p.half-gap {
+    margin: 0 0 10px;
+}
 hr {
     border-top: 1px solid #e2e2e2;
     width: 80%;
